@@ -1,7 +1,7 @@
 # Status
 **功能與 Pinger 相同，但有更多改進和增強**
 
-**[點擊我查看更改日誌](https://github.com/HappyAreaBean/Status/blob/main/CHANGELOG.md)**
+**[點擊我查看更改日誌](https://github.com/HappyAreaBean/Status/wiki/Changelog)**
 
 # Status (1.8 以下)
 
