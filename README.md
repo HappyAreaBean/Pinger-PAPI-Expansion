@@ -3,7 +3,7 @@
 
 **[更改日誌](https://github.com/HappyAreaBean/Status/wiki/Changelog)** - **[設定檔](https://github.com/HappyAreaBean/Status/wiki/%E8%A8%AD%E5%AE%9A%E6%AA%94)** 
 
-# Status
+---
 
 #### 變量列表:
 ```
