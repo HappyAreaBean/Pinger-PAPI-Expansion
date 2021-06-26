@@ -1,29 +1,60 @@
-# Status
-**功能與 Pinger 相同，但有更多改進和增強**
 
-**[更改日誌](https://github.com/HappyAreaBean/Status/wiki/Changelog)** - **[設定檔](https://github.com/HappyAreaBean/Status/wiki/%E8%A8%AD%E5%AE%9A%E6%AA%94)** 
+# ⚠ Please read this before download/using it. ⚠ 
+This version only fixes the motd problem and uses another API to achieve this goal.
+
+In original pinger the `motd` placeholder only getting the motd from `server.properties`.
+
+If you don’t need this feature or the original version is enough for you to use, you don’t need to switch to this version.
+
+Let me first declare that I did not say that the API used in this version is better than the original.
+* I may add some feature as requested but I **do not guarantee** that I will add them. 
+  * (In most cases, if it takes **little time to add that feature**, I **might** consider adding)
+  * Of course, all the features idea not related to ServerPinger will be rejected.
+
+And also this version of pinger is used privately on my own server, now is publicly available for everyone.
 
 ---
 
-#### 變量列表:
+# ServerPinger
+**Expansion that allows you to ping servers for information**
+
+**[Changelog](/wiki/Changelog)** - **[Configuration](/wiki/Configuration)** 
+
+---
+
+Lets you ping a server through an IP or domain (with port), to check the online-status and to receive some information.
+The placeholders have a "warmup" time of around one or two minutes after installing the expansion.
+
+**Note:** These placeholders have a separate update-delay in the config.yml of PlaceholderAPI
+
+Replace `mycoolserver.com:25565` with your own server/IP.
+
+---
+
+# Placeholders List:
 ```
-%status_motd_<IP:Port>% : 伺服器MOTD
-%status_players_<IP:Port>% / %status17_count_<IP:Port>% : 伺服器在線玩家
-%status_maxplayers_<IP:Port>% / %status17_max_<IP:Port>% : 伺服器最大在線玩家
-%status_pingversion_<IP:Port>% / %status17_pingv_<IP:Port>% : 伺服器版本（協議編號）
-%status_version_<IP:Port>% / %status17_serverversion_<IP:Port>% : 伺服器版本（版本文字）
-%status_online_<IP:Port>% : 伺服器在線或離線（返回配置中設置的文字）
-%status_booleanonline_<IP:Port>% : 伺服器在線或離線（返回 true / false）
-%status_isonlineplayers_<IP:Port>% : 伺服器在線返回在線玩家, 離線返回配置中設置的文字
+%pinger_motd_mycoolserver.com:25565%
+%pinger_players_mycoolserver.com:25565%
+%pinger_max_mycoolserver.com:25565%
+%pinger_pingversion_mycoolserver.com:25565%
+%pinger_gameversion_mycoolserver.com:25565%
+%pinger_online_mycoolserver.com:25565%
+%pinger_booleanonline_mycoolserver.com:25565%
+%pinger_isonlineplayers_mycoolserver.com:25565%
 ```
 
-Status是使用另一個Pinger，所以如果你使用motd，它將得到伺服器列表顯示的。
+---
 
-#### 安裝方法
-1. 把 Expansion-Status.jar 放到目錄 plugins\PlaceholderAPI\expansions 下
+# How to install
+1. Put/Replace `Expansion-Pinger.jar` to the folder `plugins\PlaceholderAPI\expansions`
 2. /papi reload
 
 ---
 
-### 備註
-* 從版本 `v2.0` 開始, 只需要使用 `status` 即可並不需要分開下載兩個版本
+### Information about the old version (Status)
+* Because the name of the expansion was misleading and confused people about what this expansion does, so now it was renamed to `ServerPinger`
+  * Also for better compatibility with the original pinger, so now the identifier is changed to `pinger`.
+
+* Starting from version `v2.0`, you only need to use `status` as the placeholder identifier and you don't need to download the two versions separately 
+  * **Note:** The expansion name in v2.0 is still called `Status`, please consider to update to the latest version asap
+  * All the old version may clean up later.
