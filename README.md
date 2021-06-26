@@ -39,14 +39,14 @@ The placeholders have a "warmup" time of around one or two minutes after install
 **Note:** These placeholders have a separate update-delay in the config.yml of PlaceholderAPI
 Replace `mycoolserver.com:25565` with your own server/IP.
 ```
-%pinger_motd_mycoolserver.com:25565%
-%pinger_players_mycoolserver.com:25565%
-%pinger_max_mycoolserver.com:25565%
-%pinger_pingversion_mycoolserver.com:25565%
-%pinger_gameversion_mycoolserver.com:25565%
-%pinger_online_mycoolserver.com:25565%
-%pinger_booleanonline_mycoolserver.com:25565%
-%pinger_isonlineplayers_mycoolserver.com:25565%
+%serverpinger_motd_mycoolserver.com:25565%
+%serverpinger_players_mycoolserver.com:25565%
+%serverpinger_max_mycoolserver.com:25565%
+%serverpinger_pingversion_mycoolserver.com:25565%
+%serverpinger_gameversion_mycoolserver.com:25565%
+%serverpinger_online_mycoolserver.com:25565%
+%serverpinger_booleanonline_mycoolserver.com:25565%
+%serverpinger_dynamic_mycoolserver.com:25565%
 ```
 
 ---
