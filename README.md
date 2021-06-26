@@ -18,7 +18,7 @@ And also this version of pinger is used privately on my own server, now is publi
 # ServerPinger
 **Expansion that allows you to ping servers for information**
 
-**[Wiki](https://github.com/HappyAreaBean/Pinger-PAPI-Expansion/wiki)** - **[Configuration](https://github.com/HappyAreaBean/Pinger-PAPI-Expansion/wiki/Configuration)** - **[Changelog](https://github.com/HappyAreaBean/Pinger-PAPI-Expansion/wiki/Changelog)**
+**[Wiki](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki)** - **[Configuration](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki/Configuration)** - **[Changelog](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki/Changelog)**
 
 ---
 
@@ -46,7 +46,7 @@ Replace `mycoolserver.com:25565` with your own server/IP.
 ---
 
 # How to install
-1. Put/Replace `Expansion-Pinger.jar` to the folder `plugins\PlaceholderAPI\expansions`
+1. Put `Expansion-ServerPinger.jar` to the folder `plugins\PlaceholderAPI\expansions`
 2. /papi reload
 
 ---
