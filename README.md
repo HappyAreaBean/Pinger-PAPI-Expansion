@@ -54,7 +54,6 @@ Replace `mycoolserver.com:25565` with your own server/IP.
 ### Information about the old version (Status)
 * Because the name of the expansion was misleading and confused people about what this expansion does, so now it was renamed to `ServerPinger`
   * ~~Also for better compatibility with the original pinger, so now the identifier is changed to `pinger`.~~
-  * Currently the identifier is not keeped as `pinger`, if you want to use `pinger` and you wish don’t need to change anything then runs smoothly, please contact me! If most people want it, I would consider changing it to pinger.
 
 * Starting from version `v2.0`, you only need to use `status` as the placeholder identifier and you don't need to download the two versions separately 
   * **Note:** The expansion name in v2.0 is still called `Status`, please consider to update to the latest version asap
