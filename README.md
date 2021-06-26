@@ -1,10 +1,12 @@
 
 # ⚠ Please read this before download/using it. ⚠ 
-This version only fixes the motd problem and uses another API to achieve this goal.
+This version fixes the motd problem and uses another API to achieve this goal.
 
 In original pinger the `motd` placeholder only getting the motd from `server.properties`.
 
 If you don’t need this feature or the original version is enough for you to use, you don’t need to switch to this version.
+
+**Recommend you read the features list first.**
 
 Let me first declare that I did not say that the API used in this version is better than the original.
 * I may add some feature as requested but I **do not guarantee** that I will add them. 
@@ -22,16 +24,18 @@ And also this version of pinger is used privately on my own server, now is publi
 
 ---
 
+# Features
 Lets you ping a server through an IP or domain (with port), to check the online-status and to receive some information.
 The placeholders have a "warmup" time of around one or two minutes after installing the expansion.
-
-**Note:** These placeholders have a separate update-delay in the config.yml of PlaceholderAPI
-
-Replace `mycoolserver.com:25565` with your own server/IP.
+* MOTD Support
+* Dynamic online message
+* Boolean online
 
 ---
 
 # Placeholders List:
+**Note:** These placeholders have a separate update-delay in the config.yml of PlaceholderAPI
+Replace `mycoolserver.com:25565` with your own server/IP.
 ```
 %pinger_motd_mycoolserver.com:25565%
 %pinger_players_mycoolserver.com:25565%
