@@ -2,6 +2,8 @@
 # ⚠ Please read this before download/using it. ⚠ 
 This version used another API to fixes the motd problem with some new features.
 
+And also this version is designed for use on my own server but now is publicly available for everyone.
+
 In original pinger the `motd` placeholder only getting the motd from `server.properties`.
 
 If you don’t need any of these feature or the original version is enough for you to use, you don’t need to switch to this version.
@@ -10,10 +12,8 @@ If you don’t need any of these feature or the original version is enough for y
 
 Let me first declare that I did not say that this version is better than the original.
 * I may add some feature as requested but I **do not guarantee** that I will add them. 
-  * (In most cases, if it takes **little time to add that feature**, I **might** consider adding)
+  * (In most cases, if it takes **little time to add that feature** ~~(and within my abilities)~~, I **might** consider adding)
   * Of course, all the features idea not related to ServerPinger will be rejected.
-
-And also this version is designed for use on my own server, now is publicly available for everyone.
 
 Feedback / Suggestions always welcome! ❤
 
