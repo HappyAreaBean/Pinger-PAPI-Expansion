@@ -1,19 +1,21 @@
 
 # ⚠ Please read this before download/using it. ⚠ 
-This version fixes the motd problem and uses another API to achieve this goal.
+This version used another API to fixes the motd problem with some new features.
 
 In original pinger the `motd` placeholder only getting the motd from `server.properties`.
 
-If you don’t need this feature or the original version is enough for you to use, you don’t need to switch to this version.
+If you don’t need any of these feature or the original version is enough for you to use, you don’t need to switch to this version.
 
-**Recommend you read the features list first.**
+**Still not sure? Recommend you read the [features](https://github.com/HappyAreaBean/Pinger-PAPI-Expansion#features) list first.**
 
-Let me first declare that I did not say that the API used in this version is better than the original.
+Let me first declare that I did not say that this version is better than the original.
 * I may add some feature as requested but I **do not guarantee** that I will add them. 
   * (In most cases, if it takes **little time to add that feature**, I **might** consider adding)
   * Of course, all the features idea not related to ServerPinger will be rejected.
 
-And also this version of pinger is used privately on my own server, now is publicly available for everyone.
+And also this version is designed for use on my own server, now is publicly available for everyone.
+
+Feedback / Suggestions always welcome! ❤
 
 ---
 
@@ -33,7 +35,7 @@ The placeholders have a "warmup" time of around one or two minutes after install
 
 ---
 
-# Placeholders List:
+# Placeholders List
 **Note:** These placeholders have a separate update-delay in the config.yml of PlaceholderAPI
 Replace `mycoolserver.com:25565` with your own server/IP.
 ```
@@ -62,3 +64,11 @@ Replace `mycoolserver.com:25565` with your own server/IP.
 * Starting from version `v2.0`, you only need to use `status` as the placeholder identifier and you don't need to download the two versions separately 
   * **Note:** The expansion name in v2.0 is still called `Status`, please consider to update to the latest version asap
   * All the old version may clean up later.
+
+---
+
+I really not confident to publish any project because i'm not really "master" in java coding and i'm scared it will cause some problem so I always don't do this
+
+but I really want to help other server owners who are facing such problems.
+
+So please, please, please if you find any problem please tell me. I will try my best to solve your problem.
