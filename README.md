@@ -18,7 +18,7 @@ And also this version of pinger is used privately on my own server, now is publi
 # ServerPinger
 **Expansion that allows you to ping servers for information**
 
-**[Wiki](https://github.com/HappyAreaBean/Pinger-PAPI-Expansion/wiki)** - **[Changelog](https://github.com/HappyAreaBean/Pinger-PAPI-Expansion/wiki/Changelog)**
+**[Wiki](https://github.com/HappyAreaBean/Pinger-PAPI-Expansion/wiki)** - **[Configuration](https://github.com/HappyAreaBean/Pinger-PAPI-Expansion/wiki/Configuration)** - **[Changelog](https://github.com/HappyAreaBean/Pinger-PAPI-Expansion/wiki/Changelog)**
 
 ---
 
