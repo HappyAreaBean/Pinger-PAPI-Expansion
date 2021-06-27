@@ -67,9 +67,8 @@ Replace `mycoolserver.com:25565` with your own server/IP.
 ---
 
 ### Information about the old version (Status)
+**Note:** The expansion name in v2.0 is still called `Status`, please consider to update to the latest version asap
 * Starting from version `v2.0`, you only need to use `status` as the placeholder identifier and you don't need to download the two versions separately 
-  * **Note:** The expansion name in v2.0 is still called `Status`, please consider to update to the latest version asap
-  * All the old version may clean up later.
 
 ---
 
