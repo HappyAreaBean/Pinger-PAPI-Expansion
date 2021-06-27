@@ -22,7 +22,7 @@ Feedback / Suggestions always welcome! ❤
 # ServerPinger
 **Expansion that allows you to ping servers for information**
 
-**Required (PlaceholderAPI)[https://www.spigotmc.org/resources/placeholderapi.6245/] plugin to work.**
+**Required [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) plugin to work.**
 
 **[Wiki](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki)** - **[Configuration](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki/Configuration)** - **[Changelog](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki/Changelog)**
 
