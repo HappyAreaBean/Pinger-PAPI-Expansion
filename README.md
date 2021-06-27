@@ -37,6 +37,7 @@ The placeholders have a "warmup" time of around one or two minutes after install
 
 # Placeholders List
 **Note:** These placeholders have a separate update-delay in the config.yml of PlaceholderAPI
+
 Replace `mycoolserver.com:25565` with your own server/IP.
 ```
 %serverpinger_motd_mycoolserver.com:25565%
