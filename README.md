@@ -34,7 +34,7 @@ The placeholders have a "warmup" time of around one or two minutes after install
 * MOTD Support
 * Dynamic online message
 * Boolean online
-* [Custom Dynamic](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki/Custom-Dynamic) (Added since v2.1+)
+* [Custom Dynamic](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki/Custom-Dynamic) (Added in v2.1+)
 
 ---
 
