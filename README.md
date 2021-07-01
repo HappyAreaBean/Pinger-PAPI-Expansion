@@ -20,6 +20,9 @@ Feedback / Suggestions always welcome! ❤
 ---
 
 # ServerPinger
+
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/HappyAreaBean/ServerPinger-PAPI-Expansion?label=latest%20stable&style=for-the-badge)](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/HappyAreaBean/ServerPinger-PAPI-Expansion?include_prereleases&label=latest%20beta&style=for-the-badge)](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases) [![GitHub release (latest by date)](https://img.shields.io/github/downloads/HappyAreaBean/ServerPinger-PAPI-Expansion/latest/total?label=Downloads%40Latest&style=for-the-badge)](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases)
+
 **PlaceholderAPI Expansion that allows you to ping servers for information**
 
 **Required [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) plugin to work.** (Why i need to mention this)
