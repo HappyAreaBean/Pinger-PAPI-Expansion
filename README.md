@@ -29,7 +29,7 @@ Feedback / Suggestions always welcome! ❤
 
 **[Wiki](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki)** - **[Configuration](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki/Configuration)** - **[Changelog](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki/Changelog)** - **[Releases](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases)**
 
-<a href="https://discord.com/invite/2Jgs4BdtbT"><img src="https://images.levats.com/join_us_on_discord.png" alt="drawing" width="300"/></a>
+<a href="https://go.happyareabean.cc/supportdiscord"><img src="https://images.levats.com/join_us_on_discord.png" alt="drawing" width="300"/></a>
 
 ---
 
