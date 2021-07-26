@@ -27,7 +27,7 @@ Feedback / Suggestions always welcome! ❤
 
 **Required [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) plugin to work.** (Why i need to mention this)
 
-**[Wiki](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki)** - **[Configuration](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki/Configuration)** - **[Changelog](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/wiki/Changelog)** - **[Releases](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases)**
+**[Wiki](https://happyareabean.gitbook.io/bean-docs/plugins/serverpinger)** - **[Configuration](https://happyareabean.gitbook.io/bean-docs/plugins/serverpinger/configuration)** - **[Changelog](https://happyareabean.gitbook.io/bean-docs/plugins/serverpinger/changelog)** - **[Releases](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases)**
 
 <a href="https://go.happyareabean.cc/supportdiscord"><img src="https://images.levats.com/join_us_on_discord.png" alt="drawing" width="300"/></a>
 
