@@ -6,10 +6,12 @@ import lombok.Setter;
 import java.util.HashMap;
 import java.util.Map;
 
-@Getter @Setter
+@Getter
+@Setter
 public class CustomDynamic {
 
-	@Getter public static Map<String, CustomDynamic> dynamicMap = new HashMap<String, CustomDynamic>();
+	@Getter
+	public static Map<String, CustomDynamic> dynamicMap = new HashMap<String, CustomDynamic>();
 
 	private String type;
 	private String online;
