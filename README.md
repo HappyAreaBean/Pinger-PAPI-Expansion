@@ -66,6 +66,10 @@ Replace `mycoolserver.com:25565` with your own server/IP.
 
 ---
 
+# Credits
+
+* Original [Pinger](https://github.com/PlaceholderAPI/Pinger-Expansion) expansion
+
 I really not confident to publish any project because i'm not really "master" in java coding and i'm scared it will cause some problem so I always don't do this
 
 but I really want to help other server owners who are facing such problems.
