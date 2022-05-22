@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cc.happyareabean</groupId>
-    <artifactId>ServerPingerBeta</artifactId>
+    <artifactId>ServerPinger</artifactId>
     <packaging>jar</packaging>
     <version>2.3</version>
 
@@ -30,7 +30,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.22</version>
+            <version>1.18.24</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -61,6 +61,12 @@
                     <artifactId>*</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.36</version>
         </dependency>
 
     </dependencies>
@@ -115,6 +121,10 @@
                                 <relocation>
                                     <pattern>org.xbill.DNS</pattern>
                                     <shadedPattern>cc.happyareabean.papiexpansion.pinger.lib.dns</shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>org.slf4j</pattern>
+                                    <shadedPattern>cc.happyareabean.papiexpansion.pinger.lib.slf4j</shadedPattern>
                                 </relocation>
                             </relocations>
                             <filters>
