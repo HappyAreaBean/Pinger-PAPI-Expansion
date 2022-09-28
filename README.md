@@ -19,15 +19,17 @@ Feedback / Suggestions always welcome! ❤
 
 # ServerPinger
 
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/HappyAreaBean/ServerPinger-PAPI-Expansion?label=latest%20stable&style=for-the-badge)](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/HappyAreaBean/ServerPinger-PAPI-Expansion?include_prereleases&label=latest%20beta&style=for-the-badge)](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases) [![GitHub release (latest by date)](https://img.shields.io/github/downloads/HappyAreaBean/ServerPinger-PAPI-Expansion/latest/total?label=Downloads%40Latest&style=for-the-badge)](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases)
+[![GitHub release][latest-release]][github-release-url] 
+[![GitHub pre release][latest-pre-release]][github-release-url]
+[![GitHub downloads][downloads]][github-release-url]
+[![Issues][issues-shield]][issues-url]
+[![Discord][discord-shield]][discord-url]
 
 **PlaceholderAPI Expansion that allows you to ping servers for information**
 
 **Required [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) plugin to work.** (Of course, you need it)
 
 **[Wiki](https://happyareabean.gitbook.io/bean-docs/plugins/serverpinger)** - **[Configuration](https://happyareabean.gitbook.io/bean-docs/plugins/serverpinger/configuration)** - **[Changelog](https://happyareabean.gitbook.io/bean-docs/plugins/serverpinger/changelog)** - **[Releases](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases)**
-
-<a href="https://go.happyareabean.cc/supportdiscord"><img src="https://images.levats.com/join_us_on_discord.png" alt="drawing" width="300"/></a>
 
 ---
 
@@ -68,3 +70,13 @@ Replace `mycoolserver.com:25565` with your own server/IP.
 # Credits
 
 * Original [Pinger](https://github.com/PlaceholderAPI/Pinger-Expansion) expansion
+
+[github-release-url]: https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases
+[latest-release]: https://img.shields.io/github/v/release/HappyAreaBean/ServerPinger-PAPI-Expansion?label=Version&style=for-the-badge
+[latest-pre-release]: https://img.shields.io/github/v/release/HappyAreaBean/ServerPinger-PAPI-Expansion?include_prereleases&label=pre%20release&style=for-the-badge&color=CD7F32
+[downloads]: https://img.shields.io/github/downloads/HappyAreaBean/ServerPinger-PAPI-Expansion/total?label=Downloads&style=for-the-badge
+
+[discord-shield]: https://img.shields.io/discord/347679658369613826?color=darkblue&label=DISCORD&style=for-the-badge
+[discord-url]: https://go.happyareabean.cc/supportdiscord
+[issues-shield]: https://img.shields.io/github/issues/HappyAreaBean/ServerPinger-PAPI-Expansion.svg?style=for-the-badge
+[issues-url]: https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/issues
