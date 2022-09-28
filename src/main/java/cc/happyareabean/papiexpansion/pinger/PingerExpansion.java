@@ -225,26 +225,26 @@ public class PingerExpansion extends PlaceholderExpansion implements Cacheable, 
 			}
 		}
 		addToPing(pinger, address);
-		if (type.equalsIgnoreCase("motd")) {
-			return (pinger != null) ? pinger.getMotd() : this.offline;
-		}
-		if (type.equalsIgnoreCase("count") || type.equalsIgnoreCase("players")) {
-			return (pinger != null) ? String.valueOf(pinger.getPlayersOnline()) : "0";
-		}
-		if (type.equalsIgnoreCase("max") || type.equalsIgnoreCase("maxplayers")) {
-			return (pinger != null) ? String.valueOf(pinger.getMaxPlayers()) : "0";
-		}
-		if (type.equalsIgnoreCase("pingversion") || type.equalsIgnoreCase("pingv")) {
-			return (pinger != null) ? String.valueOf(pinger.getPingVersion()) : "-1";
-		}
-		if (type.equalsIgnoreCase("gameversion") || type.equalsIgnoreCase("version")) {
-			return (pinger != null && pinger.getGameVersion() != null) ? String.valueOf(pinger.getGameVersion()) : "";
-		}
-		if (type.equalsIgnoreCase("online") || type.equalsIgnoreCase("isonline")) {
-			return (pinger != null) ? this.online : this.offline;
-		}
-		if (type.equalsIgnoreCase("booleanonline")) {
-			return (pinger != null) ? "true" : "false";
+		switch (type) {
+			case "motd":
+				return (pinger != null) ? pinger.getMotd() : this.offline;
+			case "count":
+			case "players":
+				return (pinger != null) ? String.valueOf(pinger.getPlayersOnline()) : "0";
+			case "max":
+			case "maxplayer":
+				return (pinger != null) ? String.valueOf(pinger.getMaxPlayers()) : "0";
+			case "pingv":
+			case "pingversion":
+				return (pinger != null) ? String.valueOf(pinger.getPingVersion()) : "-1";
+			case "gameversion":
+			case "version":
+				return (pinger != null && pinger.getGameVersion() != null) ? String.valueOf(pinger.getGameVersion()) : "";
+			case "online":
+			case "isonline":
+				return (pinger != null) ? this.online : this.offline;
+			case "booleanonline":
+				return (pinger != null) ? "true" : "false";
 		}
 		return null;
 	}
