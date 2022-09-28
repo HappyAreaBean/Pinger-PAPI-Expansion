@@ -52,6 +52,7 @@ Replace `mycoolserver.com:25565` with your own server/IP.
 %serverpinger_players_mycoolserver.com:25565%
 %serverpinger_max_mycoolserver.com:25565%
 %serverpinger_pingversion_mycoolserver.com:25565%
+%serverpinger_protocol_mycoolserver.com:25565%
 %serverpinger_gameversion_mycoolserver.com:25565%
 %serverpinger_online_mycoolserver.com:25565%
 %serverpinger_booleanonline_mycoolserver.com:25565%
