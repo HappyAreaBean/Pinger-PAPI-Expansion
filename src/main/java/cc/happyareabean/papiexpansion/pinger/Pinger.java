@@ -10,7 +10,6 @@ public class Pinger {
 	private String address;
 	private int port;
 	private int timeout;
-	private int pingVersion;
 	private int protocolVersion;
 	private String gameVersion;
 	private String motd;
@@ -21,7 +20,6 @@ public class Pinger {
 		this.address = "localhost";
 		this.port = 25565;
 		this.timeout = 2000;
-		this.pingVersion = -1;
 		this.protocolVersion = -1;
 		this.playersOnline = -1;
 		this.maxPlayers = -1;
@@ -51,14 +49,6 @@ public class Pinger {
 
 	public int getTimeout() {
 		return this.timeout;
-	}
-
-	private void setPingVersion(final int pingVersion) {
-		this.pingVersion = pingVersion;
-	}
-
-	public int getPingVersion() {
-		return this.pingVersion;
 	}
 
 	private void setProtocolVersion(final int protocolVersion) {

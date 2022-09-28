@@ -236,7 +236,7 @@ public class PingerExpansion extends PlaceholderExpansion implements Cacheable, 
 				return (pinger != null) ? String.valueOf(pinger.getMaxPlayers()) : "0";
 			case "pingv":
 			case "pingversion":
-				return (pinger != null) ? String.valueOf(pinger.getPingVersion()) : "-1";
+				return (pinger != null) ? String.valueOf(pinger.getProtocolVersion()) : "-1";
 			case "gameversion":
 			case "version":
 				return (pinger != null && pinger.getGameVersion() != null) ? String.valueOf(pinger.getGameVersion()) : "";
