@@ -18,8 +18,8 @@ public class PingerExpansion extends PlaceholderExpansion implements Cacheable, 
 	private BukkitTask pingTask;
 	private String online;
 	private String offline;
-	private String dynamic_online;
-	private String dynamic_offline;
+	private String dynamicOnline;
+	private String dynamicOffline;
 	private final Map<String, Pinger> servers;
 	private final Map<String, InetSocketAddress> toPing;
 	private int interval;
@@ -29,8 +29,8 @@ public class PingerExpansion extends PlaceholderExpansion implements Cacheable, 
 		this.pingTask = null;
 		this.online = "&aOnline";
 		this.offline = "&cOffline";
-		this.dynamic_online = "&e<onlineplayers> playing";
-		this.dynamic_offline = "&c&lOFFLINE";
+		this.dynamicOnline = "&e<onlineplayers> playing";
+		this.dynamicOffline = "&c&lOFFLINE";
 		this.servers = new ConcurrentHashMap<>();
 		this.toPing = new ConcurrentHashMap<>();
 		this.interval = 60;
@@ -77,8 +77,8 @@ public class PingerExpansion extends PlaceholderExpansion implements Cacheable, 
 		this.online = this.getString("online", "&aOnline");
 		this.offline = this.getString("offline", "&cOffline");
 
-		this.dynamic_online = this.getString("dynamic.online", "&e<onlineplayers> playing");
-		this.dynamic_offline = this.getString("dynamic.offline", "&c&lOFFLINE");
+		this.dynamicOnline = this.getString("dynamic.online", "&e<onlineplayers> playing");
+		this.dynamicOffline = this.getString("dynamic.offline", "&c&lOFFLINE");
 
 		final int time = this.getInt("check_interval", 60);
 		if (time > 0) {
@@ -210,12 +210,12 @@ public class PingerExpansion extends PlaceholderExpansion implements Cacheable, 
 					}
 				}
 				addToPing(pinger, address);
-				return (pinger != null) ? PlaceholderAPI.setPlaceholders(p, this.dynamic_online.replace("<onlineplayers>", String.valueOf(pinger.getPlayersOnline()))
+				return (pinger != null) ? PlaceholderAPI.setPlaceholders(p, this.dynamicOnline.replace("<onlineplayers>", String.valueOf(pinger.getPlayersOnline()))
 						.replace("<max>", String.valueOf(pinger.getMaxPlayers()))
 						.replace("<motd>", pinger.getMotd())
 						.replace("<version>", pinger.getGameVersion())
 						.replace("<protocol>", String.valueOf(pinger.getProtocolVersion()))
-						.replace("<online>", this.online)) : this.dynamic_offline.replace("<offline>", this.offline);
+						.replace("<online>", this.online)) : this.dynamicOffline.replace("<offline>", this.offline);
 			}
 		}
 		for (final String serverAddress : this.servers.keySet()) {
