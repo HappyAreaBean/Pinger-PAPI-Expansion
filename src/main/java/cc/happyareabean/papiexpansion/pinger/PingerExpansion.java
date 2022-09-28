@@ -189,12 +189,12 @@ public class PingerExpansion extends PlaceholderExpansion implements Cacheable, 
 
 					if (CustomDynamic.getDynamicMap().containsKey(dynamicType)) {
 						CustomDynamic dynamicMaps = CustomDynamic.getDynamicMap().get(dynamicType);
-						return (pinger != null) ? PlaceholderAPI.setPlaceholders(p, dynamicMaps.getOnline().replaceAll("<onlineplayers>", String.valueOf(pinger.getPlayersOnline()))
-								.replaceAll("<max>", String.valueOf(pinger.getMaxPlayers()))
-								.replaceAll("<motd>", pinger.getMotd())
-								.replaceAll("<version>", pinger.getGameVersion())
-								.replaceAll("<protocol>", String.valueOf(pinger.getProtocolVersion()))
-								.replaceAll("<online>", this.online)) : dynamicMaps.getOffline().replaceAll("<offline>", this.offline);
+						return (pinger != null) ? PlaceholderAPI.setPlaceholders(p, dynamicMaps.getOnline().replace("<onlineplayers>", String.valueOf(pinger.getPlayersOnline()))
+								.replace("<max>", String.valueOf(pinger.getMaxPlayers()))
+								.replace("<motd>", pinger.getMotd())
+								.replace("<version>", pinger.getGameVersion())
+								.replace("<protocol>", String.valueOf(pinger.getProtocolVersion()))
+								.replace("<online>", this.online)) : dynamicMaps.getOffline().replace("<offline>", this.offline);
 					} else {
 						return null;
 					}
@@ -210,12 +210,12 @@ public class PingerExpansion extends PlaceholderExpansion implements Cacheable, 
 					}
 				}
 				addToPing(pinger, address);
-				return (pinger != null) ? PlaceholderAPI.setPlaceholders(p, this.dynamic_online.replaceAll("<onlineplayers>", String.valueOf(pinger.getPlayersOnline()))
-						.replaceAll("<max>", String.valueOf(pinger.getMaxPlayers()))
-						.replaceAll("<motd>", pinger.getMotd())
-						.replaceAll("<version>", pinger.getGameVersion())
-						.replaceAll("<protocol>", String.valueOf(pinger.getProtocolVersion()))
-						.replaceAll("<online>", this.online)) : this.dynamic_offline.replaceAll("<offline>", this.offline);
+				return (pinger != null) ? PlaceholderAPI.setPlaceholders(p, this.dynamic_online.replace("<onlineplayers>", String.valueOf(pinger.getPlayersOnline()))
+						.replace("<max>", String.valueOf(pinger.getMaxPlayers()))
+						.replace("<motd>", pinger.getMotd())
+						.replace("<version>", pinger.getGameVersion())
+						.replace("<protocol>", String.valueOf(pinger.getProtocolVersion()))
+						.replace("<online>", this.online)) : this.dynamic_offline.replace("<offline>", this.offline);
 			}
 		}
 		for (final String serverAddress : this.servers.keySet()) {
