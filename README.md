@@ -1,11 +1,48 @@
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion">
+    <img src="https://user-images.githubusercontent.com/50882051/210489285-c612a94f-cdce-429d-bc07-1069410e8366.png" alt="Logo">
+  </a>
+
+<h3 align="center">ServerPinger</h3>
+
+  <p align="center">
+    PlaceholderAPI Expansion that allows you to ping servers for information!<br />
+    <a href="https://go.happyareabean.cc/serverpingerwiki"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/release">Download from GitHub</a>
+    ·
+    <a href="https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/issues">Request Feature</a>
+    ·
+    <a href="https://go.happyareabean.cc/supportdiscord">Discord Support</a>
+  </p>
+
+[![GitHub Stable Release][latest-release]][github-release-url]
+[![GitHub All Release download][downloads]][github-release-url]
+[![Issues][issues-shield]][issues-url]
+[![Discord][discord-shield]][discord-url]
+
+[![Download from GitHub][download-github]][download-github-url]
+[![Download from SpigotMC][download-spigot]][download-spigot-url]
+   
+   
+**[Wiki](https://go.happyareabean.cc/serverpingerwiki)** - 
+**[Configuration](https://go.happyareabean.cc/serverpingerwiki/configuration)** - 
+**[Changelog](https://go.happyareabean.cc/serverpingerwiki/changelog)** - 
+**[Releases](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases)**
+
+</div>
+
 # What is ServerPinger?
 
 ServerPinger used another API to fixes the motd problem and came with some new [features](#features).
 
-In original pinger expansion the `motd` placeholder only getting the motd from `server.properties`.
-
-If you don’t need any of these feature or the original version is enough for you to use, you don’t need to switch to/use this version.
+If you don’t need any of these features or the original version is enough for you to use, you don’t need to switch to/use this version.
 
 **Still not sure? Recommend you read the [features](#features) list first.**
 
@@ -15,24 +52,6 @@ Feedback / Suggestions always welcome! ❤
     * (In most cases, if it takes **little time to add that feature** ~~(and within my abilities)~~, I **might** consider adding)
     * Of course, all the features' idea not related to ServerPinger will be rejected.
 
----
-
-# ServerPinger
-
-[![GitHub release][latest-release]][github-release-url] 
-[![GitHub pre release][latest-pre-release]][github-release-url]
-[![GitHub downloads][downloads]][github-release-url]
-[![Issues][issues-shield]][issues-url]
-[![Discord][discord-shield]][discord-url]
-
-**PlaceholderAPI Expansion that allows you to ping servers for information**
-
-**Required [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) plugin to work.** (Of course, you need it)
-
-**[Wiki](https://happyareabean.gitbook.io/bean-docs/plugins/serverpinger)** - **[Configuration](https://happyareabean.gitbook.io/bean-docs/plugins/serverpinger/configuration)** - **[Changelog](https://happyareabean.gitbook.io/bean-docs/plugins/serverpinger/changelog)** - **[Releases](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases)**
-
----
-
 # Features
 Lets you ping a server through an IP or domain (with port), to check the online-status and to receive some information.
 The placeholders have a "warmup" time of around one or two minutes after installing the expansion.
@@ -40,8 +59,6 @@ The placeholders have a "warmup" time of around one or two minutes after install
 * Dynamic online message
 * Boolean online
 * [Custom Dynamic](https://happyareabean.gitbook.io/bean-docs/plugins/serverpinger/custom-dynamic) (Added in v2.1+)
-
----
 
 # Placeholders List
 **Note:** These placeholders have a separate update-delay in the config.yml of PlaceholderAPI
@@ -60,17 +77,21 @@ Replace `mycoolserver.com:25565` with your own server/IP.
 %serverpinger_dynamic_custom:example_mycoolserver.com:25565%
 ```
 
----
-
 # How to install
 1. Put `Expansion-ServerPinger.jar` to the folder `plugins\PlaceholderAPI\expansions`
 2. /papi reload
 
----
-
 # Credits
 
 * Original [Pinger](https://github.com/PlaceholderAPI/Pinger-Expansion) expansion
+
+
+
+
+
+
+
+
 
 [github-release-url]: https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases
 [latest-release]: https://img.shields.io/github/v/release/HappyAreaBean/ServerPinger-PAPI-Expansion?label=Version&style=for-the-badge
@@ -81,3 +102,8 @@ Replace `mycoolserver.com:25565` with your own server/IP.
 [discord-url]: https://go.happyareabean.cc/supportdiscord
 [issues-shield]: https://img.shields.io/github/issues/HappyAreaBean/ServerPinger-PAPI-Expansion.svg?style=for-the-badge
 [issues-url]: https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/issues
+
+[download-spigot]: https://img.shields.io/badge/Download%20from-SpigotMC-ed8106?style=for-the-badge
+[download-spigot-url]: https://go.happyareabean.cc/serverpingerspigotmc
+[download-github]: https://img.shields.io/badge/Download%20from-github-181717?style=for-the-badge
+[download-github-url]: https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases
