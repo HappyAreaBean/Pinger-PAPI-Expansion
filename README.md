@@ -48,10 +48,6 @@ If you don’t need any of these features or the original version is enough for 
 
 Feedback / Suggestions always welcome! ❤
 
-* I may add some feature as requested, but I **do not guarantee** that I will add them.
-    * (In most cases, if it takes **little time to add that feature** ~~(and within my abilities)~~, I **might** consider adding)
-    * Of course, all the features' idea not related to ServerPinger will be rejected.
-
 # Features
 Lets you ping a server through an IP or domain (with port), to check the online-status and to receive some information.
 The placeholders have a "warmup" time of around one or two minutes after installing the expansion.
