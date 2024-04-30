@@ -10,7 +10,7 @@
 
   <p align="center">
     PlaceholderAPI Expansion that allows you to ping servers for information!<br />
-    <a href="https://go.happyareabean.cc/serverpingerwiki"><strong>Explore the docs »</strong></a>
+    <a href="https://go.happyareabean.cc/serverpingerwiki/overview"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/release">Download from GitHub</a>
@@ -31,9 +31,9 @@
 [![Download from SpigotMC][download-spigot]][download-spigot-url]
    
    
-**[Wiki](https://go.happyareabean.cc/serverpingerwiki)** - 
+**[Wiki](https://go.happyareabean.cc/serverpingerwiki/overview)** - 
 **[Configuration](https://go.happyareabean.cc/serverpingerwiki/configuration)** - 
-**[Changelog](https://go.happyareabean.cc/serverpingerwiki/changelog)** - 
+**[Changelog](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases)** - 
 **[Releases](https://github.com/HappyAreaBean/ServerPinger-PAPI-Expansion/releases)**
 
 </div>
